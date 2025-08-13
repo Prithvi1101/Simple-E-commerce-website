@@ -1,0 +1,78 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contact tailwindcss</title>
+            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        </head>
+        <body>
+            <nav class="flex justify-between p-4 bg-white">
+                <h1 class="text-2xl font-bold text-blue-500">MyShop</h1>
+                <ul class="flex gap-4">
+                    <li><a href="#" class="hover:text-blue-500">Home</a></li>
+                    <li><a href="#" class=hover:text-blue-500>Products</a></li>
+                    <li><a href="#" class=hover:text-blue-500>Contact</a></li>
+                </ul>
+            </nav>
+    <body class="bg-zinc-200 ">
+        <div class="bg-zinc-200 p-5" >
+            <h2 class="text-2xl font-bold text-blue-950 text-center">Contact Us</h2>
+            <p class="text-black text-center">Have questions or need assitance? We're here to help!</p>
+        </div>
+          <!-- Contact Form and Info Container -->
+    <div class="max-w-6x mx-auto px-4 py-12 grid md:grid-cols-2 gap-5">
+
+        <!-- Contact Form -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <form class="space-y-4">
+                <div>
+                    <label for="name" class="text-gray-700 mb-2 font-bold">Name:</label>
+                    <input type="text" id="name" placeholder="Your Name" 
+                        class="w-full px-4 py-2 border rounded-lg">
+                </div>
+
+                <div>
+                    <label for="email" class="text-gray-700 mb-2 font-bold">Email:</label>
+                    <input type="email" id="email" placeholder="Your Email" 
+                        class="w-full px-4 py-2 border rounded-lg ">
+                </div>
+
+                <div>
+                    <label for="message" class=" text-gray-700 mb-2 font-bold">Message:</label>
+                    <textarea id="message" rows="4" placeholder="Your text here.." 
+                        class="w-full px-4 py-2 border rounded-lg"></textarea>
+                </div>
+
+                <button type="submit" 
+                    class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700">
+                    Send Message
+                </button>
+            </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-bold mb-4 text-center text-blue-800">Our office</h3>
+            <div class="space-y-2 mb-6">
+                <p><span class="font-semibold">Address:</span>Bangladesh University of Professionals, Mirpur-12, Dhaka</p>
+                <p><span class="font-semibold">Phone:</span>2254901101</p>
+                <p><span class="font-semibold">Email:</span>prithvirajchy@gmail.com</p>
+            </div>
+
+         
+            <iframe 
+                class="w-full h-50 rounded-lg shadow-lg"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.3907334989126!2d90.35507217439458!3d23.84025508532266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1410ff7f515%3A0x7655eae2540befbe!2sBangladesh%20University%20of%20Professionals%20(BUP)!5e0!3m2!1sen!2sbd!4v1744187189001!5m2!1sen!2sbd"
+                allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+    </body>
+    <div class="text-center p-5 mt-auto bg-black text-white mb-auto h-[150px] w-full">
+        &copy; 2025 MyShop. All Rights Reserved.
+    </div>
+    </html>
+</html>
